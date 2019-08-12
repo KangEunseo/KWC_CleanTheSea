@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="css/gmain.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wallop/2.4.1/js/Wallop.min.js'></script>
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png"/>
+    <link rel="mask-icon" type="" href="image/logo.png" color="#111"/>
+</head>
+<body translate="no">
+    <div class="wrapper">
+        <div data-carousel>
+            <ul class="slide__list Wallop-list">
+                <button class="button--prev Wallop-buttonPrevious" title="previous">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.9 50.2">
+                    <path d="M25.1 50.2L0 25.1 25.1 0l2.8 2.8L5.7 25.1l22.2 22.2z" /></svg>
+                </button>
+                
+                <div id="block">
+                    <li class="slide__item Wallop-item Wallop-item--current">
+                        <div class="level slide__heading left">
+                            <img src="image/iceberg.png" alt="빙산" class="iceberg notlocked">
+                            <span class="num">1</span>
+                        </div>
+                        <div class="level slide__heading">
+                            <img src="image/iceberg_locked.png" alt="빙산" class="iceberg">
+                            <img src="image/lock.png" alt="lock" class="lock">
+                        </div>
+                    </li>
+
+                    <li class="slide__item Wallop-item">
+                        <div class="level slide__heading left">
+                            <img src="image/iceberg_locked.png" alt="빙산" class="iceberg">
+                            <img src="image/lock.png" alt="lock" class="lock">
+                        </div>
+                        <div class="level slide__heading">
+                            <img src="image/iceberg_locked.png" alt="빙산" class="iceberg">
+                            <img src="image/lock.png" alt="lock" class="lock">
+                        </div>
+                    </li>
+
+                    <li class="slide__item Wallop-item">
+                        <div class="level slide__heading left">
+                                <img src="image/iceberg_locked.png" alt="빙산" class="iceberg">
+                            <img src="image/lock.png" alt="lock" class="lock">
+                        </div>
+                        <div class="level slide__heading">
+                            <img src="image/iceberg_locked.png" alt="빙산" class="iceberg">
+                            <img src="image/lock.png" alt="lock" class="lock">
+                        </div>
+                    </li>
+                </div>
+                
+                <button class="button--next Wallop-buttonNext" title="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.9 50.2">
+                    <path d="M25.1 50.2L0 25.1 25.1 0l2.8 2.8L5.7 25.1l22.2 22.2z" /></svg>
+                </button>
+            </ul>
+        </div>
+    </div>
+    <script src="js/gmain.js"></script>
+</body>
+</html>
